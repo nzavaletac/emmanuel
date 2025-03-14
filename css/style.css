@@ -3,7 +3,7 @@
 :root {
   --brand: #f67600;
   --dark: #494441;
-  /* --body: #516171; */
+  --body: #516171;
   --border: rgba(0, 0, 0, 0.08);
   --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
 }
@@ -154,6 +154,7 @@ section {
 .top-nav span,
 .top-nav i {
   vertical-align: middle;
+  color: var(--body);
 }
 
 .navbar {
@@ -516,4 +517,9 @@ input.form-control {
 .form-control:focus {
   box-shadow: none;
   border-color: var(--brand);
+}
+/* Modal */
+
+.exampleModal .close {
+  margin-right: 0px;
 }
